@@ -1,0 +1,38 @@
+.new-Users {
+  background-color: #92d8ee;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-Users button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #40005d;
+  background-color: #0877b8;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-Users button:hover,
+.new-Users button:active {
+  background-color: #510674;
+  border-color: #510674;
+}
+
+.new-Users button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-Users button.alternative:hover,
+.new-Users button.alternative:active {
+  background-color: #ddb3f8;
+}
